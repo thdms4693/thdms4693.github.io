@@ -1,0 +1,786 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ScatterChartID1b0852ee60fb</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- ScatterChart generated in R 3.3.0 by googleVis 0.5.10 package -->
+<!-- Tue May 31 02:12:55 2016 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataScatterChartID1b0852ee60fb () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ 60.02826829,
+30682500 
+],
+[
+ 51.86617073,
+23448202 
+],
+[
+ 77.64046341,
+2897366 
+],
+[
+ 77.19563415,
+9039978 
+],
+[
+ 75.98609756,
+42538304 
+],
+[
+ 74.56136585,
+2992192 
+],
+[
+ 82.14878049,
+23117353 
+],
+[
+ 81.13658537,
+8479375 
+],
+[
+ 70.69058537,
+9416801 
+],
+[
+ 56.25160976,
+10465959 
+],
+[
+ 80.58780488,
+11182817 
+],
+[
+ 59.31202439,
+10322232 
+],
+[
+ 58.24063415,
+17084554 
+],
+[
+ 71.2452439,
+157157394 
+],
+[
+ 74.86097561,
+7265115 
+],
+[
+ 76.54595122,
+1349427 
+],
+[
+ 75.07353659,
+377841 
+],
+[
+ 72.47073171,
+9466000 
+],
+[
+ 69.98204878,
+344193 
+],
+[
+ 67.91343902,
+10399931 
+],
+[
+ 74.12243902,
+204259377 
+],
+[
+ 69.10292683,
+754637 
+],
+[
+ 64.36080488,
+2176510 
+],
+[
+ 49.87987805,
+4710678 
+],
+[
+ 81.76504878,
+35155499 
+],
+[
+ 82.79756098,
+8089346 
+],
+[
+ 81.19792683,
+17575833 
+],
+[
+ 75.58514634,
+1357380000 
+],
+[
+ 51.20846341,
+21622490 
+],
+[
+ 55.04180488,
+22211166 
+],
+[
+ 61.66639024,
+4394334 
+],
+[
+ 73.80973171,
+47342363 
+],
+[
+ 62.93217073,
+751697 
+],
+[
+ 72.97236585,
+507258 
+],
+[
+ 79.22521951,
+4706433 
+],
+[
+ 79.94978049,
+1141652 
+],
+[
+ 78.17560976,
+10514272 
+],
+[
+ 80.84390244,
+82132753 
+],
+[
+ 80.3,
+5614932 
+],
+[
+ 73.31990244,
+10281408 
+],
+[
+ 74.56895122,
+38186135 
+],
+[
+ 75.6485122,
+15661312 
+],
+[
+ 70.92578049,
+87613909 
+],
+[
+ 83.07804878,
+46620045 
+],
+[
+ 77.14146341,
+1317997 
+],
+[
+ 63.44219512,
+94558374 
+],
+[
+ 80.97560976,
+5438972 
+],
+[
+ 69.91792683,
+880487 
+],
+[
+ 82.2195122,
+65925498 
+],
+[
+ 63.84358537,
+1650351 
+],
+[
+ 81.00487805,
+64128226 
+],
+[
+ 74.51390244,
+3776000 
+],
+[
+ 61.14207317,
+26164432 
+],
+[
+ 58.2164878,
+11948726 
+],
+[
+ 59.99926829,
+1866878 
+],
+[
+ 54.83841463,
+1757138 
+],
+[
+ 57.29082927,
+797082 
+],
+[
+ 81.28536585,
+10965211 
+],
+[
+ 71.48639024,
+15690793 
+],
+[
+ 66.31002439,
+761033 
+],
+[
+ 72.94285366,
+7849059 
+],
+[
+ 77.12682927,
+4255689 
+],
+[
+ 62.40114634,
+10431249 
+],
+[
+ 75.56585366,
+9893082 
+],
+[
+ 68.70460976,
+251268276 
+],
+[
+ 67.66041463,
+1279498874 
+],
+[
+ 81,
+4598294 
+],
+[
+ 75.12597561,
+77152445 
+],
+[
+ 69.1834878,
+33781385 
+],
+[
+ 82.06097561,
+323764 
+],
+[
+ 82.05609756,
+8059500 
+],
+[
+ 82.6902439,
+60233948 
+],
+[
+ 75.4882439,
+2714669 
+],
+[
+ 73.9,
+6460000 
+],
+[
+ 83.33195122,
+127338621 
+],
+[
+ 70.45,
+17035275 
+],
+[
+ 60.95378049,
+43692881 
+],
+[
+ 70.20243902,
+5719600 
+],
+[
+ 67.77204878,
+15078564 
+],
+[
+ 65.76658537,
+108544 
+],
+[
+ 81.70512195,
+50219669 
+],
+[
+ 74.46968293,
+3593689 
+],
+[
+ 65.6872439,
+6579985 
+],
+[
+ 79.13370732,
+4493438 
+],
+[
+ 60.52039024,
+4293692 
+],
+[
+ 71.65768293,
+6265987 
+],
+[
+ 74.91270732,
+182305 
+],
+[
+ 74.65382927,
+20579000 
+],
+[
+ 49.33146341,
+2083061 
+],
+[
+ 73.91463415,
+2957689 
+],
+[
+ 81.8,
+543360 
+],
+[
+ 73.98292683,
+2012647 
+],
+[
+ 73.70904878,
+33452686 
+],
+[
+ 71.17204878,
+3558566 
+],
+[
+ 64.67390244,
+22924557 
+],
+[
+ 76.60260976,
+393000 
+],
+[
+ 76.53265854,
+123740109 
+],
+[
+ 75.18704878,
+2072543 
+],
+[
+ 57.53519512,
+16592097 
+],
+[
+ 65.65409756,
+52983829 
+],
+[
+ 69.06180488,
+2859174 
+],
+[
+ 54.6415122,
+26467180 
+],
+[
+ 62.80270732,
+3872684 
+],
+[
+ 74.01707317,
+1258653 
+],
+[
+ 61.466,
+16190126 
+],
+[
+ 74.5675122,
+29465372 
+],
+[
+ 64.34387805,
+2346592 
+],
+[
+ 60.82814634,
+18358863 
+],
+[
+ 52.44214634,
+172816517 
+],
+[
+ 74.5147561,
+5945646 
+],
+[
+ 81.30487805,
+16804432 
+],
+[
+ 81.75121951,
+5079623 
+],
+[
+ 69.222,
+27834981 
+],
+[
+ 81.40731707,
+4442100 
+],
+[
+ 76.84104878,
+3906912 
+],
+[
+ 65.96368293,
+181192646 
+],
+[
+ 77.41921951,
+3805683 
+],
+[
+ 74.28385366,
+30565461 
+],
+[
+ 68.13156098,
+97571676 
+],
+[
+ 62.44917073,
+7308864 
+],
+[
+ 77,
+38040196 
+],
+[
+ 80.72195122,
+10457295 
+],
+[
+ 72.79917073,
+6465669 
+],
+[
+ 78.4184878,
+2101288 
+],
+[
+ 75.06341463,
+19983693 
+],
+[
+ 70.36585366,
+143506911 
+],
+[
+ 63.39482927,
+11078095 
+],
+[
+ 74.17763415,
+30201051 
+],
+[
+ 63.16704878,
+38515095 
+],
+[
+ 65.8787561,
+14221041 
+],
+[
+ 82.24634146,
+5399162 
+],
+[
+ 67.71892683,
+560685 
+],
+[
+ 50.36312195,
+6178859 
+],
+[
+ 72.49814634,
+6089644 
+],
+[
+ 66.2595122,
+182386 
+],
+[
+ 70.99,
+533450 
+],
+[
+ 76.41219512,
+5413393 
+],
+[
+ 80.32195122,
+2059953 
+],
+[
+ 81.95609756,
+9600379 
+],
+[
+ 48.93792683,
+1250641 
+],
+[
+ 73.1195122,
+89900 
+],
+[
+ 51.1914878,
+13145788 
+],
+[
+ 59.13236585,
+6928719 
+],
+[
+ 74.24692683,
+67451422 
+],
+[
+ 69.40017073,
+8111894 
+],
+[
+ 72.64034146,
+105139 
+],
+[
+ 70.30529268,
+1348240 
+],
+[
+ 74.04390244,
+10886500 
+],
+[
+ 74.90070732,
+75010202 
+],
+[
+ 64.29182927,
+50213457 
+],
+[
+ 57.76768293,
+36573387 
+],
+[
+ 71.1595122,
+45489600 
+],
+[
+ 76.83619512,
+3407969 
+],
+[
+ 78.84146341,
+316497531 
+],
+[
+ 68.222,
+30243200 
+],
+[
+ 72.81087805,
+109327 
+],
+[
+ 75.477,
+89759500 
+],
+[
+ 71.6692439,
+253165 
+],
+[
+ 73.25039024,
+190390 
+],
+[
+ 63.5835122,
+25533217 
+],
+[
+ 56.73658537,
+53157490 
+],
+[
+ 58.27192683,
+72552861 
+],
+[
+ 59.23736585,
+15246086 
+],
+[
+ 55.633,
+14898092 
+] 
+];
+data.addColumn('number','wdi2013.lifeExp');
+data.addColumn('number','wdi2013.Population');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartScatterChartID1b0852ee60fb() {
+var data = gvisDataScatterChartID1b0852ee60fb();
+var options = {};
+options["allowHtml"] = true;
+options["width"] =    500;
+options["height"] =    600;
+options["title"] = "lifeExp and Population";
+options["legend"] = "none";
+options["hAxis"] = {title:'lifeExp'};
+options["vAxis"] = {title:'Population'};
+
+
+    chartScatterChartID1b0852ee60fb = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'ScatterChart',
+    containerId: 'ScatterChartID1b0852ee60fb',
+    options: options
+    });
+    chartScatterChartID1b0852ee60fb.draw();
+    
+
+}
+
+  function openEditorScatterChartID1b0852ee60fb() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartScatterChartID1b0852ee60fb = editor.getChartWrapper();  
+  chartScatterChartID1b0852ee60fb.draw(document.getElementById('ScatterChartID1b0852ee60fb')); 
+  }); 
+  editor.openDialog(chartScatterChartID1b0852ee60fb);
+  }
+    
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartScatterChartID1b0852ee60fb);
+})();
+function displayChartScatterChartID1b0852ee60fb() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartScatterChartID1b0852ee60fb"></script>
+ 
+<!-- divChart -->
+<input type='button' onclick='openEditorScatterChartID1b0852ee60fb()' value='scater'/>  
+<div id="ScatterChartID1b0852ee60fb" 
+  style="width: 500; height: 600;">
+</div>
+ <div><span>Data: scater &#8226; Chart ID: <a href="Chart_ScatterChartID1b0852ee60fb.html">ScatterChartID1b0852ee60fb</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.3.0 (2016-05-03) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/scatterchart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
