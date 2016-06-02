@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>GeoChartID1c4063247b9f</title>
+<title>GeoChartID1514f6c1fd3</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -17,15 +17,15 @@ body {
 </style>
 </head>
 <body>
- <!-- GeoChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Tue May 31 02:14:13 2016 -->
+ <!-- GeoChart generated in R 3.2.3 by googleVis 0.5.10 package -->
+<!-- Thu Jun 02 14:29:17 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID1c4063247b9f () {
+function gvisDataGeoChartID1514f6c1fd3 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -53,16 +53,17 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID1c4063247b9f() {
-var data = gvisDataGeoChartID1c4063247b9f();
+function drawChartGeoChartID1514f6c1fd3() {
+var data = gvisDataGeoChartID1514f6c1fd3();
 var options = {};
 options["width"] =    600;
 options["height"] =    700;
+options["title"] = "Country.Name and lifeExp";
 options["displayMode"] = "markers";
 
 
     var chart = new google.visualization.GeoChart(
-    document.getElementById('GeoChartID1c4063247b9f')
+    document.getElementById('GeoChartID1514f6c1fd3')
     );
     chart.draw(data,options);
     
@@ -86,9 +87,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoChartID1c4063247b9f);
+callbacks.push(drawChartGeoChartID1514f6c1fd3);
 })();
-function displayChartGeoChartID1c4063247b9f() {
+function displayChartGeoChartID1514f6c1fd3() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -112,18 +113,22 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID1c4063247b9f"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID1514f6c1fd3"></script>
  
 <!-- divChart -->
   
-<div id="GeoChartID1c4063247b9f" 
+<div id="GeoChartID1514f6c1fd3" 
   style="width: 600; height: 700;">
 </div>
- <div><span>Data: geo1 &#8226; Chart ID: <a href="Chart_GeoChartID1c4063247b9f.html">GeoChartID1c4063247b9f</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: geo1 &#8226; Chart ID: <a href="Chart_GeoChartID1514f6c1fd3.html">GeoChartID1514f6c1fd3</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
-  R version 3.3.0 (2016-05-03) 
+  R version 3.2.3 (2015-12-10) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/geochart">Documentation and Data Policy</a>
 </span></div>
+<div>
+  <p>4개의 나라를 뽑아 각 나라의 기대수명을 알 수 있습니다.</p>
+  <p>색깔이 짙고 옅음에 따라 수치가 높고 낮음을 알 수 있습니다.</p>
+</div>
 </body>
 </html>
