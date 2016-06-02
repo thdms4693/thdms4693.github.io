@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>LineChartID10e032e1736e</title>
+<title>LineChartID151454fa17c8</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -17,15 +17,15 @@ body {
 </style>
 </head>
 <body>
- <!-- LineChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Tue May 31 01:25:18 2016 -->
+ <!-- LineChart generated in R 3.2.3 by googleVis 0.5.10 package -->
+<!-- Thu Jun 02 14:25:15 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataLineChartID10e032e1736e () {
+function gvisDataLineChartID151454fa17c8 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -53,32 +53,34 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartLineChartID10e032e1736e() {
-var data = gvisDataLineChartID10e032e1736e();
+function drawChartLineChartID151454fa17c8() {
+var data = gvisDataLineChartID151454fa17c8();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "1973";
+options["hAxis"] = {title:'Region'};
+options["vAxis"] = {title:'Population'};
 
 
-    chartLineChartID10e032e1736e = new google.visualization.ChartWrapper({
+    chartLineChartID151454fa17c8 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID10e032e1736e',
+    containerId: 'LineChartID151454fa17c8',
     options: options
     });
-    chartLineChartID10e032e1736e.draw();
+    chartLineChartID151454fa17c8.draw();
     
 
 }
 
-  function openEditorLineChartID10e032e1736e() {
+  function openEditorLineChartID151454fa17c8() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID10e032e1736e = editor.getChartWrapper();  
-  chartLineChartID10e032e1736e.draw(document.getElementById('LineChartID10e032e1736e')); 
+  chartLineChartID151454fa17c8 = editor.getChartWrapper();  
+  chartLineChartID151454fa17c8.draw(document.getElementById('LineChartID151454fa17c8')); 
   }); 
-  editor.openDialog(chartLineChartID10e032e1736e);
+  editor.openDialog(chartLineChartID151454fa17c8);
   }
     
  
@@ -98,9 +100,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID10e032e1736e);
+callbacks.push(drawChartLineChartID151454fa17c8);
 })();
-function displayChartLineChartID10e032e1736e() {
+function displayChartLineChartID151454fa17c8() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -124,18 +126,22 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID10e032e1736e"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID151454fa17c8"></script>
  
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID10e032e1736e()' value='line'/>  
-<div id="LineChartID10e032e1736e" 
+<input type='button' onclick='openEditorLineChartID151454fa17c8()' value='line'/>  
+<div id="LineChartID151454fa17c8" 
   style="width: 500; height: automatic;">
 </div>
- <div><span>Data: data &#8226; Chart ID: <a href="Chart_LineChartID10e032e1736e.html">LineChartID10e032e1736e</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_LineChartID151454fa17c8.html">LineChartID151454fa17c8</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
-  R version 3.3.0 (2016-05-03) 
+  R version 3.2.3 (2015-12-10) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/linechart">Documentation and Data Policy</a>
 </span></div>
+<div>
+  <p>x축은 Region, y축은 Population입니다.</p>
+  <p>크게 4개의 지역으로 나누어 각각의 인구를 알 수 있습니다.</p>
+</div>
 </body>
 </html>
